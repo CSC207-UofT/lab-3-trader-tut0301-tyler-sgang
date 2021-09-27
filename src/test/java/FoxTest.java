@@ -12,7 +12,7 @@ public class FoxTest {
 
     @Test(timeout = 50)
     public void TestSound() {
-        assertEquals("Yippie!", f.sound());
+        assertEquals("Yip!", f.sound());
     }
 
     @Test(timeout = 50)
