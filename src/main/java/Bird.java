@@ -16,7 +16,7 @@ public class Bird implements Tradable, Domesticatable{
     }
 
     @Override
-    public int getPrice() {
+    public int getPrice(){
         return 8;
     }
 
@@ -25,7 +25,7 @@ public class Bird implements Tradable, Domesticatable{
     }
 
     @Override
-    public String sound() {
+    public String sound(){
         return "Squack!";
     }
 
