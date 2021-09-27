@@ -12,8 +12,7 @@ public class Donkey implements  Drivable, Domesticatable, Tradable {
 
     @Override
     public void upgradeSpeed() {
-        int maxSpeed = this.maxSpeed;
-        maxSpeed += maxSpeed + 1;
+        this.maxSpeed++;
     }
 
     @Override
