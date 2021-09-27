@@ -6,7 +6,7 @@ public class BirdTest {
     Bird b;
 
     @Test(timeout = 50)
-    public void testsound(){
+    public void TestSound(){
         assertEquals("Squack!", b.sound());
     }
 
