@@ -33,6 +33,6 @@ public class Donkey implements  Drivable, Domesticatable, Tradable {
 
     @Override
     public String toString(){
-        return "are we there yet?";
+        return "are we there yet? " + this.getMaxSpeed();
     }
 }
